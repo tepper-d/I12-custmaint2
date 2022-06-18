@@ -100,6 +100,7 @@
             this.Name = "frmCustomers";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Customer Maintenance";
+            this.Load += new System.EventHandler(this.frmCustomers_Load);
             this.ResumeLayout(false);
 
         }
